@@ -7,14 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-
-    <p>addition of a +b </p>
-    <p id="demo"></p>
-   
-
-
-
-
     <h1 id="var"></h1>
     <p id="text"></p>
     <p id="key"></p>
@@ -28,7 +20,7 @@
     <p id="r3"></p>
     <p id="r4"></p>
 
-    <h3 id="data"></h3>
+    <h2 id="data"></h2>
     <p id="d1"></p>
     <span id="d-1"></span>
     <p id="d2"></p>
@@ -41,7 +33,7 @@
     <span id="d-5"></span>
     <p id="d6"></p>
 
-    <h4 id="d7"></h4>
+    <h2 id="d7"></h2>
     <span id="d0"></span>
     <p id="d8"></p>
     <span>4 + 3 = <span id="add"></span></span>
@@ -50,16 +42,16 @@
     <span>4 - 3 = <span id="sub"></span></span>
 
     <p id="d10"></p>
-    <span>4 * 3 =<span id="mul"></span></span>
+    <span>4 * 3 = <span id="mul"></span></span>
 
     <p id="d11"></p>
-    <span>4 / 3 =<span id="div"></span></span>
+    <span>4 / 3 = <span id="div"></span></span>
 
     <p id="d12"></p>
-    <span>4 % 3 =<span id="mod"></span></span>
+    <span>4 % 3 = <span id="mod"></span></span>
 
     <p id="d13"></p>
-    <span>4 ** 3 =<span id="exp"></span></span>
+    <span>4 ** 3 = <span id="exp"></span></span>
 
 
 
@@ -76,7 +68,8 @@
         document.getElementById('v1').innerHTML="let";
         document.getElementById('v2').innerHTML="var";
         document.getElementById('v3').innerHTML="const";
-        document.getElementById('rule').innerHTML="Rules for Variable Declaration";
+        
+        document.getElementById('rule').innerHTML="RULES FOR VARIABLE DDECLARATION";
         document.getElementById('r1').innerHTML="Do not start a variable unit with numbers";
         document.getElementById('r2').innerHTML="Do not use special characters apart from HYPHEN AND UNDERSCORE";
         document.getElementById('r3').innerHTML="Do not use registered unit variable";
@@ -118,6 +111,9 @@
         let c = a + b;
         let d = a - b;
         let e = a * b;
+        let f = a / b;
+        let g = a % b;
+        let h = a ** b;
 
 
 
@@ -125,6 +121,10 @@
 
         document.getElementById("add").innerHTML= c ;
         document.getElementById("sub").innerHTML= d ;
+        document.getElementById("mul").innerHTML= e ;
+        document.getElementById("div").innerHTML= f ;
+        document.getElementById("mod").innerHTML= g ;
+        document.getElementById("exp").innerHTML= h ;
 
         
 
