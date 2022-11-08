@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <p>addition of a +b </p>
+    <p id="demo"></p>
    
 
 
@@ -41,22 +44,22 @@
     <h4 id="d7"></h4>
     <span id="d0"></span>
     <p id="d8"></p>
-    <span>4 + 3 =<b id="add"></b></span>
+    <span>4 + 3 = <span id="add"></span></span>
 
     <p id="d9"></p>
-    <span>4 - 3 =<b id="o-2"></b></span>
+    <span>4 - 3 = <span id="sub"></span></span>
 
     <p id="d10"></p>
-    <span>4 * 3 =<b id o-3></b></span>
+    <span>4 * 3 =<span id="mul"></span></span>
 
     <p id="d11"></p>
-    <span>4 / 3 =<b id="o-4"></b></span>
+    <span>4 / 3 =<span id="div"></span></span>
 
     <p id="d12"></p>
-    <span>4 % 3 =<b id="o-5"></b></span>
+    <span>4 % 3 =<span id="mod"></span></span>
 
     <p id="d13"></p>
-    <span>4 ** 3 =<b id="o-6"></b></span>
+    <span>4 ** 3 =<span id="exp"></span></span>
 
 
 
@@ -95,7 +98,7 @@
         document.getElementById('d7').innerHTML="OPERATORS";
         document.getElementById('d0').innerHTML="Arithemetic Operators";
         document.getElementById('d8').innerHTML="1. Addition";
-        document.getElementById('add').innerHTML="c";
+        
 
         document.getElementById('d9').innerHTML="2. Subtraction";
 
@@ -113,7 +116,17 @@
         let a = 4;
         let b = 3;
         let c = a + b;
-        console.log(c)
+        let d = a - b;
+        let e = a * b;
+
+
+
+
+
+        document.getElementById("add").innerHTML= c ;
+        document.getElementById("sub").innerHTML= d ;
+
+        
 
 
 
