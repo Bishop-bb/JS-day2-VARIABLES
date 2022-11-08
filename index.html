@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+   
+
+
+
+
     <h1 id="var"></h1>
     <p id="text"></p>
     <p id="key"></p>
@@ -36,7 +41,7 @@
     <h4 id="d7"></h4>
     <span id="d0"></span>
     <p id="d8"></p>
-    <span>4 + 3 =<b id="o-1"></b></span>
+    <span>4 + 3 =<b id="add"></b></span>
 
     <p id="d9"></p>
     <span>4 - 3 =<b id="o-2"></b></span>
@@ -90,23 +95,25 @@
         document.getElementById('d7').innerHTML="OPERATORS";
         document.getElementById('d0').innerHTML="Arithemetic Operators";
         document.getElementById('d8').innerHTML="1. Addition";
+        document.getElementById('add').innerHTML="c";
 
         document.getElementById('d9').innerHTML="2. Subtraction";
 
         document.getElementById('d10').innerHTML="3. Multiplication";
 
-        document.getElementById('d11').innerHTML="";
+        document.getElementById('d11').innerHTML="4. Division";
+
+        document.getElementById('d12').innerHTML="5. Modulus";
+
+        document.getElementById('d13').innerHTML="6. Exponential";
 
         
         
 
-        let a = 4
-        let b = 3
-        let c = a + b
-        console.log('c')
-
-
-        // document.getElementById('o-1').innerHTML="c";
+        let a = 4;
+        let b = 3;
+        let c = a + b;
+        console.log(c)
 
 
 
